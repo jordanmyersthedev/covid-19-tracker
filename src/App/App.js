@@ -24,7 +24,6 @@ class App extends Component {
         return response.json();
       })
       .then(response => {
-        console.log(response.data.covid19Stats);
         this.setState({ covid19Stats: response.data.covid19Stats });
       })
       .catch(err => {
@@ -33,7 +32,6 @@ class App extends Component {
   }
   onSearch = e => {
     this.setState({ searchValue: e.target.value });
-    console.log(e.target.value);
   };
   render() {
     const { covid19Stats } = this.state;

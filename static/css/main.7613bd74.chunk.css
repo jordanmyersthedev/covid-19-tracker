@@ -1,0 +1,2 @@
+:root{background:#eee}.container{color:#333;width:80%;margin:2.4rem auto}.flex-container{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space-between}.flex-container div{background:#ccc;box-shadow:3px 3px 3px #aaa;color:#333;margin:2.4rem 0;padding:2.4rem}.search{padding:1rem .3rem;width:381px}.confirmed-cases,.last-updated{color:#333}.deaths{color:#fe346e}.hidden{display:none}@media (min-width:800px){.flex-container{flex-direction:row}.flex-container div{flex-basis:25%}.search{width:31%}}
+/*# sourceMappingURL=main.7613bd74.chunk.css.map */
